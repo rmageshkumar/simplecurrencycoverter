@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #f4f4f9; /* Light grey background */
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 25em;
+  background-color: #ffffff; /* White background */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 2em;
+  border-radius: 0.8em;
+  /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.app-details {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.app-icon {
+  width: 9.37em;
+  /* height: 3em;
+    border-radius: 50%;
+    background-color: #9873fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5em; */
+}
+
+.app-title {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+}
+
+#amount {
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.2em;
+  display: block;
+  border-bottom: 2px solid #4caf50; /* Green border */
+  color: #333333; /* Dark grey text */
+  margin-bottom: 2em;
+  padding: 0.5em 0;
+}
+
+#amount:focus {
+  color: #4caf50; /* Green text */
+  border-color: 2px solid #4caf50; /* Green border */
+}
+
+.dropdowns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+select {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 0.5em;
+  border: 2px solid #4caf50; /* Green border */
+  border-radius: 0.3em;
+  color: #333333; /* Dark grey text */
+}
+
+#convert {
+  width: 100%;
+  background-color: #4caf50; /* Green background */
+  border-radius: 0.3em;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0.5em;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+#result {
+  font-size: 1.2em;
+  padding: 0.8em 0;
+  background-color: #e8f5e9; /* Light green background */
+  color: #333333; /* Dark grey text */
+  margin-top: 1em;
+  text-align: center;
+  border-radius: 0.3em;
+}
+
+#conversion-rate {
+  font-size: 1.2em;
+  padding: 0.8em 0;
+  background-color: #e8f5e9; /* Light green background */
+  color: #333333; /* Dark grey text */
+  margin-top: 1em;
+  text-align: center;
+  border-radius: 0.3em;
+}
